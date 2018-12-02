@@ -1,0 +1,170 @@
+.parallax_about {
+        /* The image used */
+        background-image: url("../images/creek street.jpg");
+		background-position: 0% 0%;
+        /* Set a specific height */
+        min-height: 300px; 
+
+        /* Create the parallax scrolling effect */
+        
+        background-attachment: fixed;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+.parallax_services {
+        /* The image used */
+        background-image: url("../images/project image.jpg");
+		background-position: 0% -40%;
+        /* Set a specific height */
+        min-height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+/* Parallax for the resources Page */
+.parallaxResources {
+        /* The image used */
+        background-image: url("../images/recruitment image.jpg");
+
+        /* Set a specific height */
+        min-height: 300px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 0% -40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/* Parallax for the consulting Page */
+.parallaxConsulting {
+        /* The image used */
+        background-image: url("../images/consulting services.jpg");
+
+        /* Set a specific height */
+        min-height: 300px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 0% -40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+/* Parallax for the It Lifecycle Page */
+ .parallaxItLifecycle{
+        /* The image used */
+        background-image: url("../images/consulting services.jpg");
+
+        /* Set a specific height */
+        min-height: 300px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 0% -40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+ }
+
+
+#vision{
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	top: 100px;
+	color: white;
+}
+#about_heading{
+	margin-top: 50px; 
+	/*background-color: #bed62f; */
+	background-color: #007dbd; 
+	min-height: 200px;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 40px;
+	color: #bed62f;
+}
+#about-dalrae{
+	height: 400px;
+	padding: 50px;
+}
+#about-dalrae h1{
+	
+	font-weight: bold;
+	font-style: italic;
+}
+#aboutCaption{
+	padding-bottom: 0px;
+    padding-top: 100px;
+    bottom: 0px;
+    top: 0px;
+}
+#slideHeading{
+	text-align: left;
+}
+
+#slideText{
+	font-size: 16px;
+	text-align: left;
+}
+#secondSlide{
+	font-size: 16px;
+	text-align: left;
+}
+
+h1.about_header{
+	padding-top: 70px;
+	text-align: center;
+	margin-bottom: 0px
+}
+
+/* Services Page CSS */
+
+#services_heading{
+	margin-top: 50px; 
+	background-color: #007dbd; 
+	min-height: 200px;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 40px;
+	color: #bed62f;
+}
+
+#servicesDescription{
+	padding-bottom: 0px;
+}
+
+#services-image{
+	max-height: 450px;
+	width: 100%;
+}
+
+
+
+/* Accordion styling */
+
+#accordionJumbotron{
+	background-color: #dedede;
+}
+
+#accordionRow{
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+#accordionHeader {
+	
+    text-align: left;
+    vertical-align: bottom;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#accordionButton {
+	margin-top: 40px;
+}

@@ -1,0 +1,142 @@
+/* CSS used here will be applied after bootstrap.css */
+body{
+	padding-bottom: 0px;
+}
+
+/* Navbar styling across the website */
+.navbar-fixed-top{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+
+.nav { 
+	margin-bottom: 0; 
+}
+
+.navbar-fixed-top.compressed{ // the styles that overrides the initial style when the user scroll down
+    padding-top: 10px;
+    padding-bottom: 00px;
+    color: #6dcc7c;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); 
+	}
+
+
+
+.nav > li.dropdown.open { 
+	position: static; 
+}
+.nav > li.dropdown.open .dropdown-menu {
+	display:table; 
+	width: 100%; 
+	text-align: center; 
+	left:0; 
+	right:0; 
+}
+
+.dropdown-menu>li>h5{
+	color: #007ec2;
+}
+.dropdown-menu>li>a{
+	text-align: left;
+	word-wrap: normal;
+}
+.dropdown-menu>li {
+    display: table-cell;
+    color: #000000;
+    width: 1px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #bed62f;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: #dedede;
+	
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #dedede;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus{
+	color: #dedede;
+}
+
+/* Styling for the carousel on the main page */
+#myCarousel{
+	top: 10px;
+}
+
+.carousel.slide{
+	margin-bottom: 0px;
+}
+
+/* Styling for Jumbotron containers */
+.jumbotron{
+	background-color: white;
+	text-align: center;
+	color: grey;
+	margin-bottom: 0px;
+	
+}
+
+.jumbotron h1 {
+	font-size: 40px
+}
+.col-md-4>h4{
+
+	font-weight: 700;
+}
+
+.col-md-8{
+	font-size: 20px;
+}
+
+
+#footer{
+	background-color: #dedede;
+}
+
+/* Parallax for the About Page */
+.parallax {
+        /* The image used */
+        background-image: url("../images/placeholder image.jpg");
+
+        /* Set a specific height */
+        min-height: 400px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 0% -16.5%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/* Styling for the contact form */
+
+#consulting_picture{
+	object-fit: cover;
+	max-width: 500px;
+	height: 420px;
+}
+
+
+
+.carousel-inner .item
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+}

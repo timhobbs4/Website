@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" -->
+    <!-- Optional theme -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/form.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar-inverse navbar-fixed-top justify-content-between">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" style="padding-top: 0px; padding-bottom: 0px"><img src="images/D'alrae logo.png" alt="D'alRae Solutions Logo" width="70px" height="45px"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="dropdown">
+                                <a href="services.html" class="dropdown-toggle" data-toggle="dropdown" role="button" style="background-color: transparent;" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <h5><img src="images/consultancy-icon-3.png" alt="consultancy icon" width="20px" height="20px">Consulting</h5>
+                                        <a href="Consulting.html">
+                                          <ul>Business Strategy & Governance</ul>
+                                        <ul>Business Process Improvement</ul></a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <h5 style="padding-left: 5px"><img src="images/sdlc.png" alt="SDLC image" width="20px" height="20px">
+                                          Project Services
+                                        </h5>
+                                        <a href="services.html">
+                                        <ul>User Experience</ul>
+                                        <ul>Applictaion Development</ul>
+                                        <ul>Project Management</ul>
+                                        <ul>Solution Architecture</ul></a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <h5><img src="images/resourcing.png" alt="Rescource Picture" width="25px" height="20px" style="padding-left: 5px;"> Resourcing</h5>
+                                        <a href="resources.html">
+                                          <ul>Contracting</ul>
+                                        <ul>Staff Augmentation</ul></a>
+                                    </li>
+                                </ul>
+                            <li class="dropdown">
+                                <a href="solutions.html" class="dropdown-toggle" data-toggle="dropdown" role="button" style="background-color: transparent;" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <h5><img src="images/consultancy-icon-3.png" alt="consultancy icon" width="20px" height="20px">Mobile Services</h5>
+                                        <a href="mobile.html">
+                                          <ul>Mobility</ul>
+                                        <ul>System Networks</ul></a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <h5 style="padding-left: 5px"><img src="images/sdlc.png" alt="SDLC image" width="20px" height="20px">
+                                          Cloud Services
+                                        </h5>
+                                        <a href="cloud.html">
+                                        <ul>Enterprise Cloud</ul>
+                                        <ul>Solution Architecture</ul></a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <h5><img src="images/resourcing.png" alt="Rescource Picture" width="25px" height="20px" style="padding-left: 5px;"> IT Lifecycle Management</h5>
+                                        <a href="itLIfecycle.html">
+                                          <ul>Contract Management As A Service</ul>
+                                        <ul>Staff Augmentation</ul></a>
+                                    </li>
+                                </ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            </li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <!-- /. Navbar -->
+    <div class="parallax"></div>
+    <div class="container" style="background-color: white; padding-bottom: 20px; padding-top: 20px">
+        <div class="row">
+            <div class="col-md-8" id="form_container">
+                <div class="row">
+                    <div class="md-8">
+                        <h3>Contact Us</h3>
+                    </div>
+                </div>
+                <form role="form" method="post" id="contact_form">
+                    <div class="row">
+                        <div class="md-8 form-group">
+                            <label for="name"> Your Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="md-8 form-group">
+                            <label for="subject"> Subject:</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+                        <div class="md-8 form-group">
+                            <label for="email"> Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="md-3 form-group">
+                            <label for="message"> Message:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="md-3 form-group">
+                            <button type="submit" class="btn btn-lg btn-default pull-right">Send</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3>
+                </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+            </div>
+            <div class="col-md-4">
+                <h3> Contact Details</h3>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled">
+                    <li style="padding-bottom: 10px">Level 4, 99 Creek Street</li>
+                    <li style="padding-bottom: 10px">Brisbane, Qld, 4000</li>
+                    <li style="padding-bottom: 10px">Tel: 07 1234 5678</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+            <!-- Page footer details -->
+            <footer id="footer">
+                <footer class="container py-5">
+                    <div class="col-md-4">
+                        <h4>Get In Touch</h4>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <ul class="list-unstyled">
+                                    <li><img src="images/location pin.png" style="height: 15px"></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li>L4, 99 Creek St</li>
+                                    <li>Brisbane, QLD, 4000</li>
+                                    <li>Australia</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <ul class="list-unstyled">
+                                    <li><img src="images/phone icon.png" style="height: 15px"></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li>+61 439 895 570</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Services</h4>
+                        <ul class="list-unstyled">
+                            <a href="consulting.html"> <li>Consulting Services</li></a>
+                            <a href="services.html"><li>Project Services</li></a>
+                            <a href="resources.html"> <li>Resourcing Services</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Solutions</h4>
+                        <ul class="list-unstyled">
+                            <a href="mobile.html"> <li>Mobile Services</li></a>
+                            <a href=cloud.html><li>Cloud Services</li></a>
+                            <a href=itLIfecycle.html><li>IT Lifecycle Management</li></a>
+                        </ul>
+                    </div>
+                </footer>
+            </footer>
+            <!-- /.Footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
