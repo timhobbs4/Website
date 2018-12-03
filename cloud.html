@@ -11,6 +11,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="css/carousel.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -98,8 +99,73 @@
     </div>
     </div>
     <!-- /. Navbar -->
-    <div class="jumbotron">
+    <!-- Heading Container -->
+        <div class="container" style="width: 100%;">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 text-box text-center" id="services_heading">
+                <h1>Cloud Services</h1>
+            </div>
+        </div>
     </div>
+        <div class="parallaxCloud"></div>
+       
+        <!-- /.Heading Container -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-1" style="text-align: left;">Delivering Flexibility with Cloud</h1>
+            <p style="flex-wrap: all; text-align: justify;">
+                Cloud is no longer an emerging technology or a “special IT project” use case.  According to McKinsey*, enterprises are now in the middle of a fundamental shift from building IT to consuming IT and are planning to transition IT workloads at a significant rate and pace to a Hybrid Cloud infrastructure. <br><br>
+                What has changed though, is the preferred mix of Cloud and on-premises solutions, management and services. It’s now all about a hybrid approach, choosing the right options, in the right way, to optimise the use of your technology and resources and maximising the value of your Cloud investments.<br><br>
+                In this scenario, everyone is starting from a completely different mindset, which means everyone also has a unique path forward.
+            </p>
+        </div>
+    </div>
+
+        <!-- Feedback form container -->
+    <div class="container" id="contactContainer">
+        <div class="row">
+            <div class="col-xs-8 md-8" id="form_container">
+                <div class="row">
+                    
+                    <div class="md-8">
+                        <h3>Contact Us</h3>
+                    </div>
+                </div>
+                    <form role="form" method="post" id="contact_form">
+                    <div class="row">
+                        
+                        <div class="md-8 form-group">
+                            <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name*">
+                        </div>                        
+                        <div class="md-8 form-group">
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Email*">
+                        </div>
+                        <div class="md-8 form-group">
+                            <input type="text" class="form-control" id="subject" name="subject" required placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="md-8 form-group">
+                            <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7" placeholder="How can we help you?"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="md-3 form-group">
+                            <button type="submit" class="btn btn-lg btn-default pull-right">Send</button>
+                        </div>
+                    </div>
+                
+                </form>
+                <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3>
+                </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+            </div>
+            <div class="col-md-4">
+                <img class="hidden-xs" src="images/contact picture.jpg" alt="consulting Picture" id="consulting_picture"> 
+            </div>
+            </div>
+        </div>
+        <!-- /. Feedback Form -->
             <!-- Page footer details -->
             <footer id="footer">
                 <footer class="container py-5">
