@@ -57,7 +57,7 @@
         background-size: cover;
     }
 
-/* Parallax for the consulting Page */
+/* Parallax for the Cloud Page */
 .parallaxCloud {
         /* The image used */
         background-image: url("../images/cloud computing.jpg");
@@ -69,6 +69,22 @@
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: 0% 170%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/* Parallax for the Mobility Page */
+.parallaxMobility {
+        /* The image used */
+        background-image: url("../images/Enterprise Mobility.jpg");
+
+        /* Set a specific height */
+        min-height: 300px; 
+
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 0% 80%;
         background-repeat: no-repeat;
         background-size: cover;
     }
