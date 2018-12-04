@@ -145,3 +145,37 @@ body{
     -o-background-attachment: fixed;
     background-attachment: fixed;
 }
+
+#blog-image{
+	max-width: 695px; 
+	border-radius: 5%;
+}
+
+
+
+#blog-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.blog-column {
+  flex: 50%;
+  padding: 0 4px;
+  border-radius: 5%
+}
+
+.blog-column img {
+  /*margin-top: 8px;*/
+  vertical-align: middle;
+  max-width: 300px;
+  
+}
+
+.blog-pagination{
+	margin-bottom: 15px
+}
+
+
