@@ -42,8 +42,8 @@ class FormHandler
 		$this->mailer = new PHPMailer;
 		$this->mail_template='';
 
-		/*$this->mailer->Subject = "Contact Form Submission ";*/
-		$this->mailer->Subject =($Subject,'Contact Form',false);
+		$this->mailer->Subject = "Contact Form Submission ";
+		/*$this->mailer->Subject =($Subject,'Contact Form',false);*/
 
 		$host = isset($_SERVER['SERVER_NAME'])?$_SERVER['SERVER_NAME']:'localhost';
         $from_email ='forms@'.$host;
