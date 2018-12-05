@@ -178,4 +178,7 @@ body{
 	margin-bottom: 15px
 }
 
-
+#events-container{
+	padding-left: 0px;
+	padding-right: 0px
+}
