@@ -1,12 +1,8 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.scrollTop -= 10;
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        var path = document.querySelector(this.getAttribute('href'));
-        path.scrollIntoView({
-            behavior: 'smooth',
-        });
-    });
-
+$('.novLink, .sepLink, #newer-posts').click(function() {
+    //assign section reference to variable
+    var sectionTo = $(this).attr('href');
+    //animate scroll 
+    $('html, body').animate({
+      scrollTop: $(sectionTo).offset().top - 70
+    }, 1000);
 });
-
