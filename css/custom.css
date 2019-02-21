@@ -36,10 +36,12 @@ body{
 
 .dropdown-menu>li>h5{
 	color: #007ec2;
+    font-weight: 1000;
 }
 .dropdown-menu>li>a{
 	text-align: left;
 	word-wrap: normal;
+
 }
 .dropdown-menu>li {
     display: table-cell;
@@ -49,6 +51,8 @@ body{
 
 .navbar-inverse .navbar-nav>li>a {
     color: #bed62f;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus {
@@ -188,7 +192,7 @@ body{
 .parallax_about {
         /* The image used */
         background-image: url("../images/creek street.jpg");
-		background-position: 0% -2%;
+		background-position: 0% 0%;
         /* Set a specific height */
         min-height: 300px; 
 
