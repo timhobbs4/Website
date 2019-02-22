@@ -142,75 +142,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </p>
         </div>
     </div>
-    <!-- Collapsable headings for the different sections -->
-    <div class="jumbotron" id="accordionJumbotron" style="text-align: left;">
+    <div class="jumbotron" id="accordionJumbotron">
         <div class="container">
-            <div class="accordion" id="resourcesAccordion">
-                <div class="row" id="accordionRow">
-                    <div class="card">
-                        <!--div class="col-md-1"><img src="images/icons/IT-contractor.png" style="max-height: 100px;"></div-->
-                        <div class="col-md-10">
-                            <h3 id="accordionHeader">Contracting</h3>
-                        </div>
-                        <div class="col">
-                            <div class="card-header" id="contractingHeading">
-                                <h5>
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#contractingCollapseBody" aria-expanded="false" aria-controls="contractingCollapseBody" id="accordionButton">
-                                        View <span class="caret"></span>
-                                    </button>
-                                </h5>
-                            </div>
-                        </div>
-                        <div id="contractingCollapseBody" class="collapse" aria-labelledby="contractingHeading" data-parent="#resourcesAccordion">
-                            <div class="card-body">
-                                <div class="col-md-10" style="text-align: left; margin-bottom: 20px; margin-left: 20px">
-                                    <span></span>
-                                    We speed the time to productivity for our placements by facilitating a smooth onboarding programme. We have an in-depth understanding of the technical skills and competencies you need to get the full value from your technology investment. For contract positions, we also remain in close contact with the client and our consultant, proactively facilitating employee engagement, performance, and retention throughout each assignment.<br><br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row" id="servicesRow">
+                <div class="col-md-1"></div>
+                <div class="col-md-4" id="servicesBox">
+                    <img src="images/icons/IT-contractor.png" style="max-height: 100px;">
+                    <h3 id="contractingHeading">Contracting</h3><br>
+                    We speed the time to productivity for our placements by facilitating a smooth onboarding programme. We have an in-depth understanding of the technical skills and competencies you need to get the full value from your technology investment. For contract positions, we also remain in close contact with the client and our consultant, proactively facilitating employee engagement, performance, and retention throughout each assignment.<br><br>
                 </div>
-                <!-- second card of accordion -->
-                <div class="row" id="accordionRow">
-                    <div class="card">
-                        <!--div class="col-md-1"><img src="images/icons/augment icon.png" style="max-height: 100px;"></div-->
-                        <div class="col-md-10">
-                            <h3 id="accordionHeader">Staff Augmentation</h3>
-                        </div>
-                        <div class="col">
-                            <div class="card-header" id="staffHeading">
-                                <h5>
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#staffCollapseBody" aria-expanded="false" aria-controls="staffCollapseBody" id="accordionButton">
-                                        View <span class="caret"></span>
-                                    </button>
-                                </h5>
-                            </div>
-                        </div>
-                        <div id="staffCollapseBody" class="collapse" aria-labelledby="staffHeading" data-parent="#resourcesAccordion">
-                            <div class="card-body">
-                                <div class="col-md-10" style="text-align: left; margin-bottom: 20px; margin-left: 20px">
-                                    Our team has a broad range of expertise to suit your business needs, including:<br>
-                                    • Business Analysts,<br>
-                                    • Data Analysts, <br>
-                                    • SAP Functional Consultants,<br>
-                                    • ABAP Developers,<br>
-                                    • Full Stack Developers, and<br>
-                                    • Fiori Developers with extensive Angular knowledge.<br>
-                                    The Team are skilled in following a standard Development Life Cycle, as well as delivering in both Waterfall and Agile methodologies, making the D’alRae Team a standout in its field.<br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-2"></div>
+                <!-- second box of services -->
+                <div class="col-md-4" id="servicesBox">
+                    <img src="images/icons/dev icon.png" style="max-height: 100px; max-width: 95px; margin-left: 5px">
+                    <h3 id="servicesHeading">Staff Augmentation</h3><br>
+                    Our team are skilled in following a standard Development Life Cycle, as well as delivering in both Waterfall and Agile methodologies. We have a broad range of expertise to suit your business needs, including:<br>
+                    <div style="text-align: left">
+                        • Business Analysts,<br>
+                        • Data Analysts, <br>
+                        • SAP Functional Consultants,<br>
+                        • ABAP Developers,<br>
+                        • Full Stack Developers, and<br>
+                        • Fiori Developers with extensive Angular knowledge.<br><br></div>
                 </div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </div>
-    <!-- /.Collapsible Headings -->
     <!-- Feedback form container -->
     <div class="container" id="contactContainer">
         <div class="row">
-            <div class="col-md-8 col-xs-10" id="form_container">
+            <div class="col-xs-6 md-6" id="form_container">
                 <div class="row">
                     <div class="md-8">
                         <h3>Contact Us</h3>
@@ -219,10 +181,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <form role="form" method="post" id="contact_form">
                     <div class="row">
                         <div class="md-8 form-group">
-                            <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name *">
+                            <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name*">
                         </div>
                         <div class="md-8 form-group">
-                            <input type="email" class="form-control" id="email" name="email" required placeholder="Email *">
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Email*">
                         </div>
                         <div class="md-8 form-group">
                             <input type="text" class="form-control" id="subject" name="subject" required placeholder="Subject">
@@ -246,82 +208,89 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <h3>Error</h3> Sorry there was an error sending your form.
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-4">
+            <div class="col-md-4" style="padding-left: 50px">
                 <img class="hidden-xs" src="images/contact picture.jpg" alt="consulting Picture" id="consulting_picture">
             </div>
         </div>
     </div>
     <!-- /. Feedback Form -->
     <!-- Page footer details -->
-            <footer id="footer">
-                
-                <footer class="container py-5">
-                    
-                    <div class="col-md-3">
-                        <h4>Get In Touch</h4>
-                        <div class="row">
-                            <div class="col-md-1">
-                                <ul class="list-unstyled">
-                                    <li><img src="images/location pin.png" style="height: 15px"></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-7">
-                                <ul class="list-unstyled">
-                                    <li>L4, 99 Creek St</li>
-                                    <li>Brisbane, QLD, 4000</li>
-                                    <li>Australia</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-1">
-                                <ul class="list-unstyled">
-                                    <li><img src="images/phone icon.png" style="height: 15px"></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="list-unstyled">
-                                    <li>+61 439 895 570</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <h4>Services</h4>
+    <footer id="footer">
+        <footer class="container py-5">
+            <div class="col-md-3">
+                <h4>Get In Touch</h4>
+                <div class="row">
+                    <div class="col-md-1">
                         <ul class="list-unstyled">
-                            <a href="consulting.html"> <li>Consulting Services</li></a>
-                            <a href="services.html"><li>Project Services</li></a>
-                            <a href="resources.html"> <li>Resourcing Services</li></a>
+                            <li><img src="images/location pin.png" style="height: 15px"></li>
                         </ul>
                     </div>
-                    <div class="col-md-2">
-                        <h4>Solutions</h4>
+                    <div class="col-md-7">
                         <ul class="list-unstyled">
-                            <a href="mobile.html"> <li>Mobile Services</li></a>
-                            <a href=cloud.html><li>Cloud Services</li></a>
+                            <li>L4, 99 Creek St</li>
+                            <li>Brisbane, QLD, 4000</li>
+                            <li>Australia</li>
                         </ul>
                     </div>
-                    <div class="col-md-2">
-                        <h4>Stay Connected</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
                         <ul class="list-unstyled">
-                            <a href="https://twitter.com/dalrae_solution" target="_blank"> 
-                                <img src="images/icons/twitter_social_icon.png" alt="twitter icon" style="max-width: 40px; margin-right: 10px">
-                            </a>
-                            <a href="https://www.linkedin.com/company/dalrae-solutions" target="_blank"> 
-                                <img src="images/icons/linkedin logo.png" alt="Linkedin Logo" style="max-width: 50px">
-                            </a>
-                            <!--a href="#">
+                            <li><img src="images/phone icon.png" style="height: 15px"></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li>+61 439 895 570</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <h4>Services</h4>
+                <ul class="list-unstyled">
+                    <a href="consulting.html">
+                        <li>Consulting Services</li>
+                    </a>
+                    <a href="services.html">
+                        <li>Project Services</li>
+                    </a>
+                    <a href="resources.html">
+                        <li>Resourcing Services</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>Solutions</h4>
+                <ul class="list-unstyled">
+                    <a href="mobile.html">
+                        <li>Mobile Services</li>
+                    </a>
+                    <a href=cloud.html>
+                        <li>Cloud Services</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>Stay Connected</h4>
+                <ul class="list-unstyled">
+                    <a href="https://twitter.com/dalrae_solution" target="_blank">
+                        <img src="images/icons/twitter_social_icon.png" alt="twitter icon" style="max-width: 40px; margin-right: 10px">
+                    </a>
+                    <a href="https://www.linkedin.com/company/dalrae-solutions" target="_blank">
+                        <img src="images/icons/linkedin logo.png" alt="Linkedin Logo" style="max-width: 50px">
+                    </a>
+                    <!--a href="#">
                                 <img src="images/icons/facebook-icon.png" alt="facebook icon" style="max-width: 45px">
                             </a-->
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/SAP_Partner_OpenEcosystem_R.png" alt="SAP Partner Open Ecosystem" style="max-width: 200px; margin-top: 40px; margin-left: 20px">
-                    </div>
-                </footer>
-
-            </footer>
-            <!-- /.Footer -->
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <img src="images/SAP_Partner_OpenEcosystem_R.png" alt="SAP Partner Open Ecosystem" style="max-width: 200px; margin-top: 40px; margin-left: 20px">
+            </div>
+        </footer>
+    </footer>
+    <!-- /.Footer -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
