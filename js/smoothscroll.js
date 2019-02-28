@@ -7,7 +7,7 @@ $('a.sepLink, #newer-posts').click(function() {
     }, 1000);
 });
 
-$('a.novLink').click(function(){
+$('a.novLink, a.febLink').click(function(){
     var sectionTo = $(this).attr('href');
     $('body, html').animate({
         scrollTop: $(sectionTo).offset().top -105
