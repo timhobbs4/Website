@@ -1,417 +1,55 @@
-/* CSS used here will be applied after bootstrap.css */
-body{
-	padding-bottom: 0px;
-}
-
-/* Navbar styling across the website */
-.navbar-fixed-top{
-	padding-top: 10px;
-	padding-bottom: 0px;
-}
-
-
-.nav { 
-	margin-bottom: 0; 
-}
-
-.navbar-fixed-top.compressed{ // the styles that overrides the initial style when the user scroll down
-    padding-top: 10px;
-    padding-bottom: 00px;
-    color: #6dcc7c;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); 
-	}
-
-
-
-.nav > li.dropdown.open { 
-	position: static; 
-}
-.nav > li.dropdown.open .dropdown-menu {
-	display:table; 
-	width: 100%; 
-	text-align: center; 
-	left:0; 
-	right:0; 
-}
-
-.dropdown-menu>li>h5{
-	color: #007ec2;
-    font-weight: 1000;
-}
-.dropdown-menu>li>a{
-	text-align: left;
-	word-wrap: normal;
-
-}
-.dropdown-menu>li {
-    display: table-cell;
-    color: #000000;
-    width: 1px;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    color: #bed62f;
-    font-weight: 200;
-    letter-spacing: 1px;
-}
-
-.navbar-inverse .navbar-nav>li>a:focus {
-	color: #dedede;
-	
-}
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: #dedede;
-}
-
-.navbar-inverse .navbar-nav>.open>a:focus{
-	color: #dedede;
-}
-
-/* Styling for the carousel on the main page */
-#myCarousel{
-	top: 10px;
-}
-
-.carousel.slide{
-	margin-bottom: 0px;
-}
-
-/* Styling for Jumbotron containers */
-.jumbotron{
-	background-color: white;
-	text-align: center;
-	color: grey;
-	margin-bottom: 0px;
-	
-}
-
-.jumbotron h1 {
-	font-size: 40px
-}
-.col-md-4>h4{
-
-	font-weight: 700;
-}
-
-.col-md-8{
-	font-size: 20px;
-}
-
-.tab { 
-	margin-left: 40px; 
-	flex-wrap: all; 
-	text-align: justify;
-}
-
-#footer{
-	background-color: #dedede;
-}
-
-/* Parallax for the About Page */
-.parallax {
-        /* The image used */
-        background-image: url("../images/placeholder image.jpg");
-
-        /* Set a specific height */
-        min-height: 300px; 
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0% -10%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-/* Styling for the contact form */
-#form_container{
-    margin-top: 30px;
-}
-
-#consulting_picture{
-	object-fit: cover;
-	max-width: 500px;
-	height: 480px;
-    margin-left: 20px;
-}
-
-
-
-.carousel-inner .item
-{
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    -webkit-background-position: center;
-    -moz-background-position: center;
-    -o-background-position: center;
-    background-position: center;
-
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -o-background-attachment: fixed;
-    background-attachment: fixed;
-}
-
-#blog-image{
-	max-width: 695px; 
-	border-radius: 5%;
-}
-
-
-
-#blog-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-
-}
-
-/* Create two equal columns that sits next to each other */
-.blog-column {
-  flex: 50%;
-  padding: 0 4px;
-  border-radius: 5%
-}
-
-.blog-column img {
-  /*margin-top: 8px;*/
-  vertical-align: middle;
-  max-width: 300px;
-  
-}
-
-.blog-pagination{
-	margin-bottom: 15px
-}
-
-#events-container{
-	padding-left: 0px;
-	padding-right: 0px
-}
-
-
-
-.parallax_about {
-        /* The image used */
-        background-image: url("../images/creek street.jpg");
-		background-position: 0% 0%;
-        /* Set a specific height */
-        min-height: 300px; 
-
-        /* Create the parallax scrolling effect */
-        
-        background-attachment: fixed;
-        
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-
-.parallax_services {
-        /* The image used */
-        background-image: url("../images/project image.jpg");
-		background-position: 0% -15%;
-        /* Set a specific height */
-        min-height: 300px;
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-
-/* Parallax for the resources Page */
-.parallaxResources {
-        /* The image used */
-        background-image: url("../images/recruitment image.jpg");
-
-        /* Set a specific height */
-        min-height: 300px; 
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0% -15%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-/* Parallax for the consulting Page */
-.parallaxConsulting {
-        /* The image used */
-        background-image: url("../images/consulting services.jpg");
-
-        /* Set a specific height */
-        min-height: 300px; 
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0% -15%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-/* Parallax for the Cloud Page */
-.parallaxCloud {
-        /* The image used */
-        background-image: url("../images/cloud computing.jpg");
-
-        /* Set a specific height */
-        min-height: 300px; 
-
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0% 40%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-/* Parallax for the Mobility Page */
-.parallaxMobility {
-        /* The image used */
-        background-image: url("../images/Enterprise Mobility.jpg");
-
-        /* Set a specific height */
-        min-height: 300px; 
-
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0% 20%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-/* Parallax for the It Lifecycle Page */
- .parallaxItLifecycle{
-        /* The image used */
-        background-image: url("../images/consulting services.jpg");
-
-        /* Set a specific height */
-        min-height: 300px; 
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0% -40%;
-        background-repeat: no-repeat;
-        background-size: cover;
-
- }
-
-
-#vision{
-	position: absolute;
-	z-index: 10;
-	text-align: center;
-	top: 100px;
-	color: white;
-}
-#about_heading{
-	margin-top: 50px; 
-	/*background-color: #bed62f; */
-	background-color: #007dbd; 
-	min-height: 200px;
-	text-align: center;
-	padding-top: 60px;
-	/*margin-bottom: 40px;*/
-	color: #bed62f;
-}
-#about-dalrae{
-	height: 400px;
-	padding: 50px;
-}
-#about-dalrae h1{
-	
-	font-weight: bold;
-	font-style: italic;
-}
-#aboutCaption{
-	padding-bottom: 0px;
-    padding-top: 100px;
-    bottom: 0px;
-    top: 0px;
-}
-#slideHeading{
-	text-align: left;
-}
-
-#slideText{
-	font-size: 16px;
-	text-align: left;
-}
-#secondSlide{
-	font-size: 16px;
-	text-align: left;
-}
-
-h1.about_header{
-	padding-top: 70px;
-	text-align: center;
-	margin-bottom: 0px
-}
-
-/* Solutions Sub Pages CSS */
-#solutions_heading{
-    margin-top: 50px; 
-    background-color: #007dbd; 
-    min-height: 200px;
-    text-align: center;
-    padding-top: 60px;
-    /*margin-bottom: 40px;*/
-    color: #bed62f;
-}
-
-
-/* Services Page CSS */
-
-#services_heading{
-	margin-top: 50px; 
-	background-color: #007dbd; 
-	min-height: 200px;
-	text-align: center;
-	padding-top: 60px;
-	/*margin-bottom: 40px;*/
-	color: #bed62f;
-}
-
-#servicesDescription{
-	padding-bottom: 0px;
-}
-
-#services-image{
-	max-height: 450px;
-	width: 100%;
-}
-
-
-
-/* Accordion styling */
-
-
-#mobilityBox{
-    margin-left: 45px;
-    margin-right: 45px;
-}
-#accordionRow{
-	/*border: 2px solid rgba(0,0,0,.125);*/
-    background-color: #dedede;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#accordionHeader {
-	
-    text-align: left;
-    vertical-align: bottom;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-#accordionButton {
-	margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 70px
-}
-
+body{padding-bottom: 0px;}
+.navbar-fixed-top{padding-top: 10px;padding-bottom: 0px;}
+.nav {margin-bottom: 0;}
+.navbar-fixed-top.compressed{padding-top: 10px;padding-bottom: 00px;color: #6dcc7c;box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); }
+.nav > li.dropdown.open { position: static; }
+.nav > li.dropdown.open .dropdown-menu {display:table;width:100%;text-align:center;left:0;right:0;}
+.dropdown-menu>li>h5{color: #007ec2;font-weight: 1000;}
+.dropdown-menu>li>a{text-align: left;word-wrap: normal;}
+.dropdown-menu>li {display: table-cell;color: #000000;width: 1px;}
+.navbar-inverse .navbar-nav>li>a {color: #bed62f;font-weight: 200;letter-spacing: 1px;}
+.navbar-inverse .navbar-nav>li>a:focus {color: #dedede;}
+.navbar-inverse .navbar-nav>li>a:hover {color: #dedede;}
+.navbar-inverse .navbar-nav>.open>a:focus{color: #dedede;}
+#myCarousel{top: 10px;}
+.carousel.slide{margin-bottom: 0px;}
+.jumbotron{background-color: white;text-align: center;color: grey;margin-bottom: 0px;}
+.jumbotron h1 {font-size: 40px}
+.col-md-4>h4{font-weight: 700;}
+.col-md-8{font-size: 20px;}
+.tab {margin-left: 40px;flex-wrap:all;text-align: justify;}
+#footer{background-color: #dedede;}
+.parallax {background-image: url("../images/placeholder image.jpg");min-height: 300px;background-attachment: fixed;background-position: 0% -10%;background-repeat: no-repeat;background-size: cover;}
+#form_container{margin-top: 30px;}
+#consulting_picture{object-fit: cover;max-width: 500px;height: 480px;margin-left: 20px;}
+.carousel-inner .item{-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;-webkit-background-position: center;-moz-background-position: center;-o-background-position: center;background-position: center;-webkit-background-attachment: fixed;-moz-background-attachment: fixed;-o-background-attachment: fixed;background-attachment: fixed;}
+#blog-image{max-width: 695px; border-radius: 5%;}
+#blog-row {display: flex;flex-wrap: wrap;padding: 0 4px;}
+.blog-column {flex: 50%;padding: 0 4px;border-radius: 5%}
+.blog-column img {vertical-align: middle;max-width: 300px;}
+.blog-pagination{margin-bottom: 15px}
+#events-container{padding-left: 0px;padding-right: 0px;}
+.parallax_about {background-image: url("../images/creek street.jpg");background-position: 0% 0%;min-height: 300px; background-attachment: fixed;background-repeat: no-repeat;background-size: cover;}
+.parallax_services {background-image: url("../images/project image.jpg");background-position: 0% -15%;min-height: 300px;background-attachment: fixed;background-repeat: no-repeat;background-size: cover;}
+.parallaxResources {background-image: url("../images/recruitment image.jpg");min-height: 300px; background-attachment: fixed;background-position: 0% -15%;background-repeat: no-repeat;background-size: cover;}
+.parallaxConsulting {background-image: url("../images/consulting services.jpg");min-height: 300px; background-attachment: fixed;background-position: 0% -15%;background-repeat: no-repeat;background-size: cover;}
+.parallaxCloud {background-image: url("../images/cloud computing.jpg");min-height: 300px; background-attachment: fixed;background-position: 0% 40%;background-repeat: no-repeat;background-size: cover;}
+.parallaxMobility {background-image: url("../images/Enterprise Mobility.jpg");min-height: 300px;background-attachment: fixed;background-position: 0% 20%;background-repeat: no-repeat;background-size: cover;}
+.parallaxItLifecycle{background-image: url("../images/consulting services.jpg");min-height: 300px; background-attachment: fixed;background-position: 0% -40%;background-repeat: no-repeat;background-size: cover;}
+#vision{position: absolute;z-index: 10;text-align: center;top: 100px;color: white;}
+#about_heading{margin-top: 50px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
+#about-dalrae{height: 400px;padding: 50px;}
+#about-dalrae h1{font-weight: bold;font-style: italic;}
+#aboutCaption{padding-bottom: 0px;padding-top: 100px;bottom: 0px;top: 0px;}
+#slideHeading{text-align: left;}
+#slideText{font-size: 16px;text-align: left;}
+#secondSlide{font-size: 16px;text-align: left;}
+h1.about_header{padding-top: 70px;text-align: center;margin-bottom: 0px}
+#solutions_heading{margin-top: 50px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
+#services_heading{margin-top: 50px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
+#servicesDescription{padding-bottom: 0px;}
+#services-image{max-height: 450px;width: 100%;}
+#mobilityBox{margin-left: 45px;margin-right: 45px;}
+#accordionRow{background-color: #dedede;margin-top: 10px;margin-bottom: 10px;}
+#accordionHeader{text-align: left;vertical-align: bottom;margin-top: 30px;margin-left: 20px;}
+#accordionButton {margin-top: 20px;margin-bottom: 20px;margin-left: 70px}
