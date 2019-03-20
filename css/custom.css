@@ -56,7 +56,7 @@ h1.about_header{padding-top: 70px;text-align: center;margin-bottom: 0px}
 #accordionRow{background-color: #dedede;margin-top: 10px;margin-bottom: 10px;}
 #accordionHeader{text-align: left;vertical-align: bottom;margin-top: 30px;margin-left: 20px;}
 #accordionButton {margin-top: 20px;margin-bottom: 20px;margin-left: 70px}
-@media only screen and (max-width: 1125px){
+@media only screen and (max-width: 1130px){
 .parallax_about {background-image: url("../images/creek street.jpg");background-position: 0% 15%;min-height: 200px;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}	
 .parallax_services {background-image: url("../images/project image.jpg");background-position: 0% 15%;min-height: 200px;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
 .parallaxResources {background-image: url("../images/recruitment image.jpg");background-position: 0% 15%;min-height: 200px;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
