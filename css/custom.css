@@ -1,7 +1,7 @@
 body{padding-bottom: 0px;}
-.navbar-fixed-top{padding-top: 10px;padding-bottom: 0px;}
+.navbar-fixed-top{padding-top: 10px;padding-bottom: 15px;}
 .nav {margin-bottom: 0;}
-.navbar-fixed-top.compressed{padding-top: 10px;padding-bottom: 00px;color: #6dcc7c;box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); }
+.navbar-fixed-top.compressed{padding-top: 10px;padding-bottom: 15px;color: #6dcc7c;box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); }
 .nav > li.dropdown.open { position: static; }
 .nav > li.dropdown.open .dropdown-menu {display:table;width:100%;text-align:center;left:0;right:0;}
 .dropdown-menu>li>h5{color: #007ec2;font-weight: 1000;}
@@ -19,7 +19,7 @@ body{padding-bottom: 0px;}
 .col-md-8{font-size: 20px;}
 .tab {margin-left: 40px;flex-wrap:all;text-align: justify;}
 #footer{background-color: #dedede;}
-.parallax {background-image: url("../images/placeholder image.jpg");min-height: 300px;background-attachment: fixed;background-position: 0% -10%;background-repeat: no-repeat;background-size: cover;}
+.parallax {background-image: url("../images/placeholder image.jpg");min-height: 300px;background-attachment: fixed;background-position: 0% -16%;background-repeat: no-repeat;background-size: cover;}
 #form_container{margin-top: 30px;}
 #consulting_picture{object-fit: cover;max-width: 500px;height: 480px;margin-left: 20px;}
 .carousel-inner .item{-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;-webkit-background-position: center;-moz-background-position: center;-o-background-position: center;background-position: center;-webkit-background-attachment: fixed;-moz-background-attachment: fixed;-o-background-attachment: fixed;background-attachment: fixed;}
@@ -39,7 +39,7 @@ min-height: 300px; background-attachment: fixed;background-repeat: no-repeat;-we
 .parallaxMobility {background-image: url("../images/Enterprise Mobility.jpg");min-height: 300px;background-attachment: fixed;background-position: 0% 20%;background-repeat: no-repeat;-webkit-background-size: 100% auto; -moz-background-size: 100% auto;-o-background-size: 100% auto; background-size: 100% auto;}
 .parallaxItLifecycle{background-image: url("../images/consulting services.jpg");min-height: 300px; background-attachment: fixed;background-position: 0% -40%;background-repeat: no-repeat;-webkit-background-size: 100% auto; -moz-background-size: 100% auto;-o-background-size: 100% auto; background-size: 100% auto;}
 #vision{position: absolute;z-index: 10;text-align: center;top: 100px;color: white;}
-#about_heading{margin-top: 50px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
+#about_heading{margin-top: 70px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
 #about-dalrae{height: 400px;padding: 50px;}
 #about-dalrae h1{font-weight: bold;font-style: italic;}
 #aboutCaption{padding-bottom: 0px;padding-top: 100px;bottom: 0px;top: 0px;}
@@ -48,8 +48,8 @@ min-height: 300px; background-attachment: fixed;background-repeat: no-repeat;-we
 #secondSlide{font-size: 16px;text-align: left;}
 h1.about_header{padding-top: 70px;text-align: center;margin-bottom: 0px}
 #header_container{max-height: 250px}
-#solutions_heading{margin-top: 50px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
-#services_heading{margin-top: 50px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
+#solutions_heading{margin-top: 70px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
+#services_heading{margin-top: 70px; background-color: #007dbd; min-height: 200px;text-align: center;padding-top: 60px;color: #bed62f;}
 #servicesDescription{padding-bottom: 0px;}
 #services-image{max-height: 450px;width: 100%;}
 #mobilityBox{margin-left: 45px;margin-right: 45px;}
