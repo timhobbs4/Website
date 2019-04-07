@@ -1,0 +1,15 @@
+.navbar-wrapper {margin-top: 20px;}
+.navbar-wrapper .container {padding-right: 15px;padding-left: 15px;}
+.navbar-wrapper .navbar {padding-right: 0;padding-left: 0;}
+.navbar-wrapper .navbar {border-radius: 4px;}
+.carousel-caption p {margin-bottom: 20px;font-size: 16px;line-height: 1.4;}
+.featurette-heading {font-size: 30px;}
+h1 {font-size: 30px}
+.parallax_about {background-image: url("../images/creek street.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%; background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}	
+.parallax_services {background-image: url("../images/project image.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
+.parallaxResources {background-image: url("../images/recruitment image.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
+.parallaxConsulting {background-image: url("../images/consulting services.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
+.parallaxCloud {background-image: url("../images/cloud computing.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
+.parallaxMobility {background-image: url("../images/Enterprise Mobility.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
+.parallaxItLifecycle{background-image: url("../images/consulting services.jpg");background-position: 0% 15%;min-height: 200px;-webkit-background-size:100% 50%;background-size: 100% 50%;background-attachment: fixed;background-repeat: no-repeat;}
+#form_container{margin-left: 30px}
