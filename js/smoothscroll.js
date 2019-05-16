@@ -13,3 +13,27 @@ $('a.novLink, a.febLink').click(function(){
         scrollTop: $(sectionTo).offset().top -105
     }, 1000);
 });
+
+$('a.aboutLink').click(function(){
+    var sectionTo = $(this).attr('href');
+
+    $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top -70
+    }, 800);
+});
+
+$('a.servicesLink').click(function(){
+    var sectionTo = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+    },800);
+});
+
+$('a.homeLink').click(function(){
+    var sectionTo = $(this).attr('href');
+
+    $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top -150
+    }, 800);
+});
+
