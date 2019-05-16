@@ -1,15 +1,5 @@
-/*.navbar-wrapper {margin-top: 20px;}
-.navbar-wrapper .container {padding-right: 15px;padding-left: 15px;}
-.navbar-wrapper .navbar {padding-right: 0;padding-left: 0;}
-.navbar-wrapper .navbar {border-radius: 4px;}*/
-.carousel-caption p {margin-bottom: 20px;font-size: 16px;line-height: 1.4;}
-.featurette-heading {font-size: 30px;}
-h1 {font-size: 30px}
-.parallax_about {background-image: url("../images/creek street.jpg");background-position: 0% 12%;min-height: 200px;background-repeat: no-repeat; background-size: 100% auto;}	
-.parallax_services {background-image: url("../images/project image.jpg");background-position: 0% 5%;min-height: 200px;background-repeat: no-repeat; background-size: 100% auto;}
-.parallaxResources {background-image: url("../images/recruitment image.jpg");background-position: 0% 7%;min-height: 200px;background-repeat: no-repeat; background-size: 100% auto;}
-.parallaxConsulting {background-image: url("../images/consulting services.jpg");background-position: 0% 6%;min-height: 200px;background-repeat: no-repeat; background-size: 100% auto;}
-.parallaxCloud {background-image: url("../images/cloud computing.jpg");background-position: 0% 10%;min-height: 200px;background-repeat: no-repeat; background-size: 100% auto;}
-.parallaxMobility {background-image: url("../images/Enterprise Mobility.jpg");background-position: 0% 7%;min-height: 200px;background-repeat: no-repeat; background-size: 100% auto;}
-#form_container{margin-left: 30px}
-
+:root{--myFont: Arial,Helvetica,sans-serif;--logoGreen: #BED360;}
+.navbar-brand{display: none;}
+.servicesLargeScreen{display: none;}
+#heading{font-family: var(--myFont); color: white;text-align: center; font-size: 50px;}
+#blog-image{max-width: 345px; border-radius: 5%;}
