@@ -1,7 +1,8 @@
-:root{--myFont: Arial,Helvetica,sans-serif;--logoGreen: #BED360;}
+:root{--myFont: 'Montserrat', sans-serif;--logoGreen: #BED360;}
 
-#about{background: #4A4A4A;margin-bottom: 0px;font-family: var(--myFont);color: white; font-size: 18px;}
-.navbar-dark .navbar-nav a.nav-link{font-family: var(--myFont);font-size: 18px;color: var(--logoGreen);font-weight: lighter;}
+#about{background: #ffff;margin-bottom: 50px;margin-top: 50px; font-family: var(--myFont);color: black; font-size: 17px; font-weight: 300; line-height: 27px;}
+.navbar-dark .navbar-nav a.nav-link{font-family: var(--myFont);font-size: 18px; letter-spacing: 0.5px; color: var(--logoGreen);font-weight: lighter;}
+
 #headerImage{background-position: center;background-size: cover;min-width: 100%;max-height: 500px}
 #headerContainer{background-image: url(../images/bneSkyline.jpg); background-position: center;background-size: cover;min-width: 100%;max-height: 500px; margin: 0 0 0 0!important;}
 #contactContainer{background-image: url(../images/contactImage.jpg); background-position: center;background-size: cover;min-width: 100%;max-height: 500px; margin: 0 0 0 0!important;}
@@ -17,20 +18,33 @@
 .servicesCard.active{border-color: var(--logoGreen);}
 #footer{background: #4A4A4A;}
 #footerText{color: white;font-family: var(--myFont); font-size: 14px; font-weight: lighter;}
-.card{font-family: var(--myFont); font-size: 20px; box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);}
+.card{font-family: var(--myFont); font-size: 17px; font-weight: 300; box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);}
 #blog-image{max-width: 695px; border-radius: 5%;}
 #blog-row {display: flex;flex-wrap: wrap;padding: 0 4px;}
 .blog-column {flex: 50%;padding: 0 4px;border-radius: 5%}
 .blog-column img {vertical-align: middle;max-width: 300px;}
 .blog-pagination{margin-bottom: 15px}
 #events-container{padding-left: 0px;padding-right: 0px;}
-.blog-post{font-family: var(--myFont);}
-.blog-navigate{font-family: var(--myFont);}
-.blog-sidebar{font-family: var(--myFont);}
+.blog-post{font-family: var(--myFont); font-weight: 300; line-height: 27px;}
+.blog-navigate{font-family: var(--myFont); font-weight: 300;}
+.blog-sidebar{font-family: var(--myFont); font-weight: 300;}
 .card-header{margin-top: 20px;}
 .nav-link{padding-top: 20px;}
+a:hover{text-decoration: none;}
+/* Fixed/sticky icon bar (vertically aligned 30% from the top of the screen) */
+#socialButtons {z-index: 1000;position: fixed;top: 30%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);}
+
+/* Style the icon bar links */
+#socialButtons a {text-align: right;position: relative;display: inline-block;padding: 5px;transition: all 0.3s ease;color: white;font-size: 14px;width: 120px;left: -80px;padding-top: 5px; padding-bottom: 5px;}
+
+/* Style the social media icons with color, if you want */
+#socialButtons a:hover {transition: 1s; left: 0;}
+.twitter {background: #1da1f2;color: white;}
+.linkedin {background: #0077b5;color: white;}
+
 @media screen and (min-width: 601px){
-	#navBrand{width:50px; height:60px;padding-top: 0px; padding-bottom: 0px; margin-left: 16px;}
+	#navBrand{width:60px; height:60px;padding-top: 0px; padding-bottom: 0px; margin-left: 16px;}
+	#contactButton{padding-top: 15px;}
 	.servicesSmallScreen{display: none;}
-	#heading{font-family: var(--myFont); color: white;text-align: center; font-size: 80px;}
+	#heading{color: white;text-align: center; font-size: 2em; padding-top: 50px; font-weight: 600 }
 }

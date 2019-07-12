@@ -25,27 +25,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body style="background-color: white; padding-bottom: 0px">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH9RDXF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Social Media Buttons-->
+    <div class="btn-group-vertical" id="socialButtons">
+      <a href="https://twitter.com/DalraeSolutions" target="_blank" class="twitter">Twitter<img src="images/icons/twitter_social_icon.png" alt="twitter icon" style="max-width: 30px; margin-left: 10px"></a> 
+      <a href="https://www.linkedin.com/company/dalrae-solutions" target="_blank" class="linkedin">LinkedIn<img src="images/icons/linkedin_logo.png" alt="Linkedin Logo" style="max-width: 30px; margin-left: 10px"></a>
+    </div>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dalraeNavbar" aria-controls="dalraeNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-md-center" id="dalraeNavbar">
+        
+            <a class="navbar-brand" href="index.html" style="padding-left: 50px"><img id="navBrand" src="images/Portal Logo no words.png" alt="D'alRae Solutions Logo"></a>
+        
+        <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample10" style="padding-right: 100px">
             <ul class="navbar-nav">
+
                 <li class="nav-item">
-                    <!--a class="nav-link homeLink" href="index.html">Home</a-->
+                    <a class="nav-link homeLink" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link aboutLink" href="index.html">About</a>
+                    <a class="nav-link aboutLink" href="index.html#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link servicesLink" href="index.html#services">Services</a>
                 </li>
-                <li class="nav-item">
-                    <a class="navbar-brand" href="index.html"><img id="navBrand" src="images/newLogo.png" alt="D'alRae Solutions Logo"></a>
-                </li>
+                
                 <!--li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li-->
                 <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="contactButton">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Contact</button>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
