@@ -7,10 +7,10 @@ $('a.sepLink, #newer-posts').click(function() {
     }, 1000);
 });
 
-$('a.novLink, a.febLink').click(function(){
+$('a.novLink, a.febLink, a.junLink').click(function(){
     var sectionTo = $(this).attr('href');
     $('body, html').animate({
-        scrollTop: $(sectionTo).offset().top -105
+        scrollTop: $(sectionTo).offset().top -130
     }, 1000);
 });
 
